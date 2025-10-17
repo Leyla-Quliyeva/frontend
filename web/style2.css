@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.Form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(blue,aqua);
+}
+.Login{
+    background-color: aliceblue;
+    width: 29vw;
+    height: 40vh;
+    padding: 20px;
+    margin: 50px 150px 50px 150px;
+    text-align: center;
+    color: gray;
+    font-family: "Rubik", sans-serif;
+}
+.form input{
+    width: 100%;
+    height: 100%;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 5px;
+    border-style: 1px solid gray;
+}
+.sign button{
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    color: antiquewhite;
+    background-color: green;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none ;
+}
+.forgot {
+    padding: 70px;
+    color: aliceblue;
+}
+.forgot a{
+    text-decoration-line: underline;
+    color: chocolate;
+}

@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.main {
+  background-color: silver;
+  height: 250vh;
+  padding: 15px;
+}
+.A {
+  position: relative;
+  padding-bottom: 70px;
+}
+.A h1 {
+  position: sticky;
+  background-color: rgb(83, 77, 77);
+  color: rgb(30, 224, 30);
+  top: 0;
+  padding: 0 0 0 15px;
+  margin: 10px;
+}
+.A p {
+  padding: 2px;
+  margin-left: 30px;
+}
+.B {
+  position: relative;
+  padding-bottom: 70px;
+}
+.B h1 {
+  position: sticky;
+  background-color: rgb(83, 77, 77);
+  color: rgb(30, 224, 30);
+  top: 0;
+  padding: 0 0 0 15px;
+  margin: 10px;
+}
+.B p {
+  padding: 2px;
+  margin-left: 30px;
+}
+.C {
+  position: relative;
+  padding-bottom: 70px;
+}
+.C h1 {
+  position: sticky;
+  background-color: rgb(83, 77, 77);
+  color: rgb(30, 224, 30);
+  top: 0;
+  padding: 0 0 0 15px;
+  margin: 10px;
+}
+.C p {
+  padding: 2px;
+  margin-left: 30px;
+}
+.D {
+  position: relative;
+  padding-bottom: 70px;
+}
+.D h1 {
+  position: sticky;
+  background-color: rgb(83, 77, 77);
+  color: rgb(30, 224, 30);
+  top: 0;
+  padding: 0 0 0 15px;
+  margin: 10px;
+}
+.D p {
+  padding: 2px;
+  margin-left: 30px;
+}

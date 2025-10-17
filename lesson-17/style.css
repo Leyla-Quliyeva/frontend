@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  margin-top: 200px;
+  color: white;
+  font-size: 20px;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  color: black;
+  text-align: center;
+  transition: all 2s;
+  position: relative;
+}
+.box1 .text,
+.box2 .text,
+.box3 .text,
+.box4 .text {
+  font-size: 15px;
+  display: none;
+}
+.box1:hover .normal,
+.box2:hover .normal,
+.box3:hover .normal,
+.box4:hover .normal {
+  display: none;
+}
+.box1:hover .text,
+.box2:hover .text,
+.box3:hover .text,
+.box4:hover .text {
+  transform: scale(1.5);
+  color: white;
+  display: inline;
+}
+.box1:hover {
+  transform: scale(1.5);
+  color: white;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+.box2:hover {
+  transform: translate(50%, -50%);
+}
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: darkgrey;
+}
+.box3:hover {
+ transition: all 2s;
+  transform: rotateY(360deg);
+} 
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+.box4:hover {
+  transform: skew(15deg);
+}
+

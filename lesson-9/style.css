@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+.Boxes{
+    border: 1px solid red;
+    margin: 0 10px 0 10px;
+}
+.Box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ .Box .box1{
+    margin: 5px 0 0 0;
+    padding: 20px;
+    width: 350px;
+    background-color: rgb(89, 212, 212);
+    text-align: center;
+    border: 1px solid aqua;
+}
+.Box .box2 {
+    margin: 5px 0 0 0;
+    padding: 20px;
+    width: 350px;
+    text-align: center; 
+    background-color: plum;
+    border: 1px solid rgb(194, 113, 194);
+}
+.Box .box3{
+    margin: 5px 5px 0 5px;
+    padding: 20px;
+    width: 350px;
+    text-align: center; 
+    background-color: brown;
+    border: 1px solid rgb(87, 11, 11);
+}
+.Box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Box2 .box1{
+    margin: 10px 5px 0 5px;
+    padding: 20px;
+    width: 94vw;
+    text-align: center; 
+    background-color: rgb(89, 212, 212) ;
+    border: 1px solid aqua;
+}
+.Box3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Box3 .box1{
+    margin: 10px 15px 0 15px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(89, 212, 212);
+    border: 1px solid aqua; 
+}
+.Box3 .box2{
+    margin: 10px 15px 0 15px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    background-color: blueviolet;
+    border: 1px solid rgb(64, 6, 119);
+}
+.Box3 .box3{
+    margin: 10px 15px 0 15px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    background-color: brown;
+    border: 1px solid rgb(78, 6, 6);
+}
+.Box3 .box4{
+    margin: 10px 15px 0 15px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    background-color: greenyellow;
+    border: 1px solid green;
+}
+.Box3 .box5{
+    margin: 10px 15px 0 15px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    background-color: green;
+    border: 1px solid rgb(1, 70, 1);
+}
+.Box4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Box4 .box1{
+    margin: 10px 20px 0 20px;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+    background-color:  rgb(89, 212, 212) ;
+    border: 1px solid aqua;
+}
+.Box4 .box2{
+    margin: 10px 20px 0 20px;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+    background-color: purple;
+    border: 1px solid rgb(73, 4, 73);
+}
+.Box5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Box5 .box1{
+    margin: 10px 15px 5px 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    background-color:rgb(89, 212, 212) ;
+    border: 1px solid aqua;
+}
+.Box5 .box2{
+    margin: 10px 15px 5px 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    background-color: purple;
+    border: 1px solid rgb(73, 4, 73);
+}
+.Box5 .box3{
+    margin: 10px 15px 5px 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    background-color: brown;
+    border: 1px solid rgb(80, 9, 9);
+}
+.Box5 .box4{
+    margin: 10px 15px 5px 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    background-color: yellowgreen;
+    border: 1px solid green;
+}

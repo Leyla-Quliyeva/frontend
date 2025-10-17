@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+img {
+  margin: 0 50px 5px 90px;
+  padding: 10px 10px 10px 5px;
+  width: 80px;
+  height: 100px;
+}
+ nav li:hover{
+background-color: chocolate;
+/* margin: 10px;
+padding: 10px; */
+}
+.text li{
+  cursor: pointer;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10vw 10px 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  background-size: cover;
+}
+.text{
+background-image:url(./sekil2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width:100% ;
+height: 100vh;
+}
+.text h1{
+    padding: 15vw 0 0 30px;
+    text-decoration-color: black;
+    text-shadow: 4px 4px 10px yellow;
+    font-size: 30px;
+    font-family: "Signika Negative", sans-serif;
+}
+.text p{
+    padding: 15px 0 0 30px;
+    font-style: italic;
+    font-family: "EB Garamond", serif;   
+}
+.text input{
+  margin: 15px 0 0 30px;
+  width: 100px;
+  height: 30px;
+  color: blue;
+  border-color: black;
+  cursor: pointer;
+  border: 1px solid;
+}
+input:hover{
+  background-color: cadetblue;
+}
+.text1{
+  width: 100%;
+  height: 100vh;
+  background-image: url(./sekil3.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rgb(58, 61, 63);
+  background-size: cover;
+  height: 70vh;
+}
+.foot{
+  margin: 60px;
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+  color: white;
+}
+footer h3 {
+  color: aliceblue;
+  margin: 15px;
+}
+footer li {
+  color: gray;
+  font-size: 16px;
+  margin: 5px 0;
+}
+footer li:hover{
+  color: aliceblue;
+}
+.network li{
+  display: inline-block;
+  padding: 5px;
+}

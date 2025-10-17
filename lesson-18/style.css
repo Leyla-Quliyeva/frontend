@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.boxes {
+  background-color: whitesmoke;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxes i {
+  font-size: 30px;
+  color: green;
+  position: relative;
+  margin-left: 70px;
+}
+.boxes h5 {
+  display: flex;
+  margin: 15px;
+  font-size: 20px;
+  margin-left: 40px;
+}
+.boxes p {
+  margin: 5px;
+  color: silver;
+  font-size: 18px;
+}
+.box1 {
+  position: absolute;
+  top: 15px;
+  left: 100px;
+}
+.box1 i {
+  position: relative;
+  left: 30px;
+}
+.box1 h5 {
+  position: relative;
+  left: 30px;
+}
+.box1 p {
+  width: 65%;
+}
+.box2 {
+  position: absolute;
+  top: 15px;
+  left: 350px;
+}
+.box2 i {
+  left: 120px;
+}
+.box2 h5 {
+  position: relative;
+  left: 120px;
+}
+.box2 p {
+  width: 52%;
+  margin-left: 70px;
+}
+.box3 {
+  position: absolute;
+  top: 15px;
+  right: 120px;
+}
+.box3 i {
+  right: 10px;
+  margin-left: 120px;
+}
+.box3 h5 {
+  margin-left: 90px;
+}
+.box3 p {
+  width: 58%;
+}
+.box4 {
+  position: absolute;
+  top: 15px;
+  right: 120px;
+}
+.box4 h5 {
+  position: relative;
+  right: 15px;
+}
+.box4 p {
+  position: absolute;
+  right: 10px;
+  width: 84%;
+}
+#banner-one img {
+  margin: 60px;
+  width: 100%;
+  height: 50vh;
+  border: 6px solid green;
+}
+.banner-one {
+  display: flex;
+}
+.text1 h2 {
+  color: green;
+  margin-top: 80px;
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  margin-left: 100px;
+}
+.text1 h4 {
+  font-size: 25px;
+  margin: 20px;
+  margin-left: 100px;
+}
+.text1 p {
+  margin-left: 100px;
+  color: gray;
+  width: 70%;
+  margin-top: 20px;
+}
+.text1 button {
+  letter-spacing: 2px;
+  margin-left: 120px;
+  margin-top: 20px;
+  background-color: green;
+  color: white;
+  width: 10vw;
+  height: 5vh;
+  cursor: pointer;
+}
+#banner-two {
+  background-color: whitesmoke;
+  display: flex;
+  height: 65vh;
+}
+#banner-two .box-one h2 {
+  margin-top: 15px;
+  font-size: 30px;
+  padding-top: 70px;
+  margin-left: 70px;
+  color: green;
+  font-family: "Dancing Script", cursive;
+}
+#banner-two .box-one h4 {
+  margin-left: 70px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.banner-two p {
+  margin-top: 20px;
+  margin-left: 70px;
+  color: gray;
+  width: 75%;
+}
+.banner-two button {
+  background-color: green;
+  color: white;
+  letter-spacing: 3px;
+  width: 10vw;
+  height: 5vh;
+  margin: 15px;
+  margin-left: 70px;
+  cursor: pointer;
+}
+.boxes2 {
+  display: flex;
+}
+.boxes2 img {
+  width: 250px;
+  height: 210px;
+  border-radius: 10px;
+}
+.boxes2 .box-two {
+  margin: 50px;
+  margin-right: 700px;
+  margin-top: 70px;
+}
+.boxes2 .box-two h4,
+.box-three h4,
+.box-four h4 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.boxes2 .box-two :nth-child(3),
+.box-three :nth-child(3),
+.box-four :nth-child(3) {
+  margin-top: 15px;
+  color: olivedrab;
+}
+.boxes2 .box-three {
+  margin: 50px;
+  position: relative;
+}
+.boxes2 .box-three {
+  position: absolute;
+  top: 625px;
+  left: 630px;
+}
+.box-four {
+  position: absolute;
+  top: 674px;
+  right: 140px;
+}
+#banner-three .text h2 {
+  font-size: 30px;
+  padding-top: 70px;
+  color: green;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+#banner-three h3 {
+  text-align: center;
+  font-size: 25px;
+  margin: 10px;
+}
+#banner-three .banner-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 25px;
+}
+#banner-three .box-1,
+.box-2,
+.box-3 {
+  width: 250px;
+  height: 75vh;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.banner-three .box-1 img,
+.box-2 img,
+.box-3 img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+.banner-three .box-1 i,
+.box-2 i,
+.box-3 i {
+  margin-top: 10px;
+  font-size: 30px;
+  color: olive;
+  margin-left: 100px;
+}
+.banner-three .box-1 h2,
+.box-2 h2,
+.box-3 h2 {
+  margin: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+.banner-three .box-1 p,
+.box-2 p,
+.box-3 p {
+  margin-top: 10px;
+  text-align: center;
+  color: gray;
+}
+.banner-three .box-1 button,
+.box-2 button,
+.box-3 button {
+  width: 50%;
+  height: 30px;
+  color: white;
+  background-color: olivedrab;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+#banner-four {
+  height: 80vh;
+  background-color: whitesmoke;
+  margin-top: 70px;
+}
+.banner-four .form1 {
+  padding-top: 150px;
+  margin-left: 150px;
+  font-size: 20px;
+}
+.banner-four .form1 :nth-child(1) {
+  color: olivedrab;
+  margin-left: 5px;
+}
+.banner-four h4 {
+  margin: 25px;
+  margin-left: 0;
+}
+.banner-four {
+  display: flex;
+  justify-content: space-between;
+}
+.form2 {
+  background-color: white;
+  width: 450px;
+  height: 60vh;
+  margin: 70px;
+  border-radius: 10px;
+}
+.form2 h3 {
+  text-align: center;
+  font-size: 25px;
+  margin: 15px;
+  color: rgb(87, 85, 85);
+  letter-spacing: 2px;
+}
+.form2 input,
+textarea {
+  width: 80%;
+  height: 40px;
+  background-color: whitesmoke;
+  margin: 15px;
+}
+.form2 input, textarea {
+  margin-left: 50px;
+}
+.form2 input :nth-child(1) {
+  margin-top: 15px;
+}
+.form2 ::placeholder {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.form2 button{
+  background-color: green;
+  color: white;
+  letter-spacing: 3px;
+  width: 100%;
+  height: 5vh;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 80px;
+}
+#foot{
+  background-color: black;
+  height: 30vh;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+#foot i{
+  color: white;
+  font-size: 25px;
+  padding-top: 50px;
+}
+#foot i:hover{
+  color: aquamarine;
+  transition: 0.3 ease-in-out;
+}
+#foot h3{
+  color: aliceblue;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+}

@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#text {
+  background-image: url(./harry_potter_.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+.text{
+    width: 250px;
+}
+.text h1{
+    color: white;
+}
+.text p{
+    color: red;
+}
+.heading1{
+  background-color: green;
+}
+.heading1 .yellow {
+  color: yellow;
+}
+ .heading1 p {
+  color: blue;
+}
+span {
+  color: sandybrown;
+}
+.heading1 h1 {
+  color: blue;
+}

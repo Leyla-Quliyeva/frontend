@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 5rem;
+  width: 100%;
+  height: 70vh;
+  background-color: whitesmoke;
+}
+.box-1 h3 {
+  font-family: "Dancing Script", cursive;
+  color: olivedrab;
+  font-size: 2.1rem;
+}
+.box-1 h2 {
+  margin: 5px;
+}
+.box-1 p {
+  color: gray;
+  margin: 10px;
+  width: 300px;
+}
+.box-1 button {
+  width: 40%;
+  height: 30px;
+  color: white;
+  background-color: olivedrab;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.boxes .image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 20px;
+}
+.image .box-2 img,
+.box-3 img,
+.box-4 img {
+  margin: 10px;
+  width: 250px;
+  height: 210px;
+  border-radius: 10px;
+}
+.image .box-2 h4,
+.box-3 h4,
+.box-4 h4 {
+  padding: 5px;
+  margin-left: 15px;
+}
+.image .box-2 span,
+.box-3 span,
+.box-4 span {
+  padding: 5px;
+  margin-left: 15px;
+  color: olivedrab;
+}
+.banner-one .text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 20px;
+}
+.banner-one h3 {
+  font-family: "Dancing Script", cursive;
+  color: olivedrab;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 50px;
+}
+.banner-one h2 {
+  text-align: center;
+  margin: 20px;
+}
+.boxes-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+.box-one,
+.box-two,
+.box-three {
+  background-color: whitesmoke;
+  width: 250px;
+  height: 75vh;
+  border-radius: 10px;
+}
+.box-one img,
+.box-two img,
+.box-three img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+.box-one i,
+.box-two i,
+.box-three i {
+  font-size: 30px;
+  color: olive;
+  margin-left: 100px;
+}
+.box-one h2,
+.box-two h2,
+.box-three h2 {
+  font-size: 20px;
+}
+.box-one p,
+.box-two p,
+.box-three p {
+  text-align: center;
+  color: gray;
+}
+.box-one button,
+.box-two button,
+.box-three button {
+  width: 40%;
+  height: 30px;
+  color: white;
+  background-color: olivedrab;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+@media (max-width: 1200px) {
+  .image .box-2 img,
+  .box-3 img,
+  .box-4 img {
+    width: 170px;
+    height: 170px;
+    column-gap: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .boxes {
+    width: 100%;
+    height: 110vh;
+    background-color: whitesmoke;
+  }
+  .box-1 {
+    position: relative;
+  }
+  .box-1,
+  .box-2 {
+    position: absolute;
+    top: 50px;
+    left: 140px;
+    padding: 10px;
+  }
+  .box-2 {
+    position: absolute;
+    top: 50px;
+    left: 540px;
+    padding: 10px;
+  }
+  .box-3 {
+    flex-wrap: wrap;
+    position: absolute;
+    top: 370px;
+    left: 140px;
+  }
+  .box-4 {
+    flex-wrap: wrap;
+    position: absolute;
+    top: 370px;
+    left: 550px;
+  }
+  .boxes-2 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .boxes {
+    width: 100%;
+    height: 170vh;
+    background-color: whitesmoke;
+  }
+  .box-1 {
+    position: relative;
+  }
+  .box-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .box-2 {
+    position: absolute;
+    top: 230px;
+    left: 0;
+    padding: 15px;
+  }
+  .box-3 {
+    position: absolute;
+    top: 480px;
+    left: 0;
+    padding: 15px;
+  }
+  .box-4 {
+    position: absolute;
+    top: 750px;
+    left: 0;
+    padding: 10px;
+  }
+  .boxes-2{
+    position: absolute;
+    top: 100px;
+    left: 0;
+  }
+  .banner-one h3{
+    position: absolute;
+    left: 15px;
+    margin-top: 100px;
+  }
+  .banner-one h2{
+    position: absolute;
+    left: 15px;
+  }
+  .box-one {
+    position: absolute;
+    top: 1150px;
+    left: 15px;
+  }
+  .box-two {
+    position: absolute;
+    top: 1640px;
+    left: 15px;
+  }
+  .box-three {
+    position: absolute;
+    top: 2110px;
+    left: 15px;
+  }
+  .box-one i,
+  .box-two i,
+  .box-three i {
+    margin-top: 2px;
+    margin-left: 80px;
+  }
+  .box-one button,
+  .box-two button,
+  .box-three button {
+    position: absolute;
+    top: 380px;
+    left: 5px;
+    margin-left: 55px;
+    margin-top: 30px;
+  }
+  .box-one,
+  .box-two,
+  .box-three {
+    background-color: whitesmoke;
+    width: 180px;
+    height: 70vh;
+    border-radius: 10px;
+  }
+  .box-one p,
+  .box-two p,
+  .box-three p {
+    position: absolute;
+    top: 320px;
+  } 
+  .box-one img,
+  .box-two img,
+  .box-three img {
+    width: 180px;
+    height: 200px;
+  }
+}

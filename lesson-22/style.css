@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: content-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner-two button:hover {
+  background-color: black;
+  color: white;
+}
+.banner-three img:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}

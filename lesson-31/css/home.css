@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background: linear-gradient(135deg, #ff5f9e, #ff7eb3, #ff65a3);
+}
+.head {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.head h1 {
+  color: aliceblue;
+  font-size: 75px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 300;
+  margin-top: 25px;
+}
+.head nav ul {
+  display: flex;
+  gap: 35px;
+  margin: 25px 0 0 185px;
+}
+.head nav ul li a {
+  color: aliceblue;
+  font-size: 40px;
+  font-family: "Great Vibes", cursive;
+  cursor: pointer;
+}
+.login {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  margin-left: 50px;
+  gap: 25px;
+}
+.login button {
+  width: 90px;
+  height: 40px;
+  background: linear-gradient(135deg, #ff5f9e, #ff7eb3, #ff65a3);
+  color: aliceblue;
+  border: 1px solid white;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.login button:hover {
+  background: linear-gradient(135deg, #ff7eb3, #ff65a3, #ff5f9e);
+  transform: scale(1.05);
+}

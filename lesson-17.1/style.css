@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.boxes {
+  background-image: linear-gradient(#673147, #673148);
+  height: 100vh;
+}
+.boxes h1 {
+  color: #ffdead;
+  font-size: 40px;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-top: 200px;
+}
+.social {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover,
+.box5:hover,
+.box6:hover {
+  border-radius: 100px;
+  transform: rotate(360deg);
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  transition: 0.3s;
+  background-color: white;
+  width: 120px;
+  height: 110px;
+  margin: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.box1 i,
+.box2 i,
+.box3 i,
+.box4 i,
+.box5 i,
+.box6 i {
+  font-size: 60px;
+  color: #088f8f;
+  padding: 28px 0 0 30px;
+}
+.social span {
+  position: absolute;
+  top: 130px;
+  left: 10px;
+  font-size: 21px;
+  color: #ffdead;
+  font-family: "Rubik", sans-serif;
+}
+.social .box1 span {
+  left: 5px;
+}
+.social .box2 span {
+  left: 18px;
+}
+.social .box3 span {
+  left: 15px;
+}
+.social .box4 span {
+  left: 17px;
+}
+.social .box5 span,
+.box6 span {
+  left: 25px;
+}

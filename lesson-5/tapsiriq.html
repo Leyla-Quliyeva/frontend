@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    html{
+        scroll-behavior: smooth;
+    }
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      td,
+      th {
+        padding: 10px;
+      }
+      th {
+        border: none;
+        background-color: silver;
+      }
+    }
+  </style>
+  <body>
+    <header id="backtotop">
+      <h2 style="border: 1px solid blue; padding: 0px; margin: 0px">
+        This is a Header
+      </h2>
+      <nav style="border: 2px solid red">
+        <h3>This is a Navigation</h3>
+        <ul>
+          <li><a href="#section-1">Section 1</a></li>
+          <li><a href="#form section-1">Form Section 1</a></li>
+          <li><a href="#from section-2">Form Section 2 </a></li>
+          <li><a href="#footer">Footer</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section
+      style="border: 2px solid palevioletred; padding: 2px; margin: 2px"
+      id="section-1">
+      <h1>Section 1</h1>
+      <h4>Web Browsers</h4>
+      <p>
+        Google Chrome, Firefox and Internet Explorer are the most used browsers
+        today.
+      </p>
+      <h3>Google Chrome</h3>
+      <p>Google Chrome in 2008.</p>
+      <h3>Article</h3>
+      <p>
+        Internet Explorer is a free web browser from Microsoft,released in 1995.
+      </p>
+      <h3>Mozilla Firefox</h3>
+      <p>
+        Firefox is a free,open-source web browser from Mozilla,released in 2004.
+      </p>
+    </section>
+
+    <section
+      style="border: 2px solid aqua; padding: 2px; margin: 2px"
+      id="form section-1"
+    >
+      <h3>Form Section 1</h3>
+      <form action="From Section 1">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+        <label for="Gender">Gender:</label>
+        <input type="radio" id="Male" name="Gender" />
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="Gender" />
+        <label for="Female">Female</label><br /><br />
+        <label for="Pets">Pets:</label>
+        <select name="Pets" id="Pets">
+          <option value="City">City</option>
+          <option value="Village">Village</option>
+        </select>
+        <button>Submit</button>
+      </form>
+    </section>
+
+    <section
+      style="border: 2px solid purple; padding: 10px"
+      id="from section-2"
+    >
+      <h3>Form Section 2</h3>
+
+      <table>
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email Address</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Hillary</td>
+            <td>Nyakundi</td>
+            <td>tables@mail.com</td>
+          </tr>
+
+          <tr>
+            <td>Lary</td>
+            <td>Mak</td>
+            <td>developer@mail.com</td>
+          </tr>
+        </tbody>
+      </table>
+      <br /><br />
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td rowspan="2">Hillary</td>
+            <td>Advanced Web</td>
+            <td>75</td>
+          </tr>
+
+          <tr>
+            <td>Operating System</td>
+            <td>60</td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">Lary</td>
+            <td>Advanced Web</td>
+            <td>80</td>
+          </tr>
+
+          <tr>
+            <td>Operating System</td>
+            <td>75</td>
+          </tr>
+
+          <tr>
+            <td style="border-width: 0px">Total Average: 72.5</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  <footer style="border: 2px green solid; padding: 10px; margin: 2px;" id="footer" >
+    <h1>Footer</h1>
+      <p>Copyright all rights reserved</p>
+      <a href="#backtotop">BackToTop</a>
+  </footer>
+  </body>
+</html>

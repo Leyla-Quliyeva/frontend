@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <style>
+      .col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .col button {
+        width: 180px;
+        height: 45px;
+        background-color: #4e4e8f;
+        color: white;
+        border: 1px solid #4e4e8f;
+        border-radius: 5px;
+        margin: 25px;
+        font-size: 17px;
+      }
+      .col input {
+        width: 180px;
+        height: 30px;
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <button class="ascId">Ascending By Id</button>
+          <button class="descId">Descending By Id</button>
+          <button class="ascName">Ascending By Name</button>
+          <button class="descName">Descending By Name</button>
+          <input class="search" type="search" placeholder="Search" />
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col col-10">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Company Name</th>
+              <th>Contact Name</th>
+              <th>Adress</th>
+              <th>Phone</th>
+              <th>Postal Code</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr> -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
